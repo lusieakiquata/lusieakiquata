@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 430" width="1280" height="430" role="img" aria-label="LuKi Anime Coder midnight banner with original cat programmer mascot">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#090E21"/><stop offset="0.52" stop-color="#171634"/><stop offset="1" stop-color="#0A1B34"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#D8EFFF"/><stop offset=".55" stop-color="#91CFFF"/><stop offset="1" stop-color="#DBA7FF"/>
+    </linearGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#A5D4FF"/><stop offset="1" stop-color="#CA9FFD"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8C7AE5"/><stop offset="1" stop-color="#45457C"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#3C3F85"/><stop offset=".6" stop-color="#28295A"/><stop offset="1" stop-color="#1D244B"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#25254D"/><stop offset="1" stop-color="#151B39"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#AA97FF" stop-opacity=".25"/><stop offset="1" stop-color="#AA97FF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1280" height="430" rx="28"/></clipPath>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="6"/></filter>
+    <style>
+      .twinkle{animation:twinkle 4s ease-in-out infinite;transform-origin:center}
+      .twinkle.s2{animation-delay:1.5s}.twinkle.s3{animation-delay:2.6s}
+      .float{animation:bob 5.5s ease-in-out infinite}
+      @keyframes twinkle{0%,100%{opacity:.25}50%{opacity:1}}
+      @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+      @media(prefers-reduced-motion:reduce){.twinkle,.float{animation:none}}
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="430" fill="url(#bg)"/>
+    <path d="M0 372 Q230 290 440 360 T850 338 T1280 330 L1280 430 H0Z" fill="#121B3A" opacity=".66"/>
+    <path d="M0 407 Q280 350 510 420 T1020 390 T1280 401" stroke="#AF9BFF" stroke-width="2" fill="none" opacity=".12"/>
+    <g stroke="#9DABFF" opacity=".065" stroke-width="1">
+      <path d="M0 80H1280 M0 160H1280 M0 240H1280 M0 320H1280 M90 0V430 M190 0V430 M290 0V430 M390 0V430 M490 0V430 M590 0V430 M690 0V430 M790 0V430 M890 0V430 M990 0V430 M1090 0V430 M1190 0V430"/>
+    </g>
+    <circle cx="1020" cy="205" r="250" fill="url(#halo)"/>
+    <circle cx="1158" cy="93" r="41" fill="#D9D9FE" opacity=".78"/>
+    <circle cx="1176" cy="80" r="40" fill="#151A37"/>
+    <g fill="#BCA7FA">
+      <path class="twinkle" d="M70 64 l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/>
+      <path class="twinkle s2" d="M695 78 l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+      <path class="twinkle s3" d="M1232 232 l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+      <circle class="twinkle s3" cx="713" cy="275" r="3"/><circle class="twinkle" cx="125" cy="340" r="2"/>
+      <circle class="twinkle s2" cx="804" cy="112" r="3"/><circle class="twinkle" cx="1239" cy="52" r="2"/>
+    </g>
+    <g opacity=".7" fill="#F6A8D6">
+      <ellipse cx="753" cy="180" rx="7" ry="3" transform="rotate(-32 753 180)"/>
+      <ellipse cx="785" cy="359" rx="6" ry="3" transform="rotate(28 785 359)"/>
+      <ellipse cx="1197" cy="338" rx="8" ry="3" transform="rotate(-26 1197 338)"/>
+      <ellipse cx="1238" cy="136" rx="7" ry="3" transform="rotate(35 1238 136)"/>
+      <ellipse cx="894" cy="45" rx="6" ry="3" transform="rotate(20 894 45)"/>
+    </g>
+    <rect x="48" y="48" width="704" height="332" rx="24" stroke="#B89BFF" stroke-opacity=".2" fill="#10142B" fill-opacity=".33"/>
+    <path d="M48 110H751" stroke="#8F9CFA" stroke-opacity=".1"/>
+    <circle cx="74" cy="80" r="5" fill="#FF9CB9"/><circle cx="93" cy="80" r="5" fill="#FFC978"/><circle cx="112" cy="80" r="5" fill="#86EACD"/>
+    <text x="147" y="86" fill="#A5A9D2" font-size="14" font-family="Consolas,monospace" letter-spacing="1.8">luki@moonlight:~ / profile</text>
+    <text x="82" y="200" fill="url(#word)" font-size="96" font-family="Segoe UI,Arial,sans-serif" font-weight="800" letter-spacing="2">LuKi<tspan fill="#F8A2D6">.</tspan></text>
+    <text x="86" y="246" fill="#F4ACD8" font-family="Consolas,monospace" font-size="23" letter-spacing="4">ANIME CODER</text>
+    <path d="M85 269H675" stroke="url(#soft)" stroke-opacity=".6" stroke-width="2"/>
+    <text x="86" y="307" fill="#CAD5F4" font-family="Segoe UI,Arial,sans-serif" font-size="19">C++  ·  DSA  ·  SOFTWARE ENGINEERING</text>
+    <text x="86" y="340" fill="#8299BC" font-family="Consolas,monospace" font-size="16">// one more algorithm, one more adventure</text>
+    <!-- Coding terminal behind the mascot -->
+    <g opacity=".78" transform="rotate(5 1008 206)">
+      <rect x="808" y="62" width="391" height="304" rx="23" fill="#11172F" stroke="#A08CE2" stroke-opacity=".47" stroke-width="2"/>
+      <rect x="823" y="81" width="362" height="36" rx="11" fill="#202442"/>
+      <circle cx="842" cy="98" r="4" fill="#FF9EBD"/><circle cx="858" cy="98" r="4" fill="#F4CF91"/><circle cx="874" cy="98" r="4" fill="#A1E5DC"/>
+      <text x="922" y="104" fill="#B2A4EA" font-size="12" font-family="Consolas,monospace">luki.cpp</text>
+      <text x="849" y="151" fill="#8BB8FF" font-size="14" font-family="Consolas,monospace">int main() &#123;</text>
+      <text x="862" y="177" fill="#DAA5EE" font-size="14" font-family="Consolas,monospace">cout &lt;&lt; "nya~";</text>
+      <text x="849" y="203" fill="#8BB8FF" font-size="14" font-family="Consolas,monospace">&#125;</text>
+      <path d="M847 224H1135" stroke="#7E8FBF" stroke-opacity=".27"/>
+    </g>
+    <!-- Chibi cat programmer -->
+    <g class="float">
+      <!-- cat ears / outer hair -->
+      <path d="M919 196 L922 103 Q945 116 966 142 Q1019 119 1052 143 L1090 107 L1100 204 Q1087 252 1028 260 Q957 269 919 196Z" fill="url(#hair)" stroke="#A5A0F1" stroke-width="4"/>
+      <path d="M932 136 L937 113 L968 150Z" fill="#F7A1C6"/>
+      <path d="M1076 145 L1090 116 L1092 165Z" fill="#F7A1C6"/>
+      <!-- hoodie / torso -->
+      <path d="M955 274 Q971 244 1013 250 Q1064 245 1087 276 L1122 379 H914Z" fill="url(#coat)" stroke="#C7AEFF" stroke-width="3"/>
+      <path d="M988 256 Q1015 286 1041 256 L1049 284 Q1018 309 981 286Z" fill="#B7B1F4"/>
+      <!-- face and cheek -->
+      <ellipse cx="1011" cy="196" rx="81" ry="74" fill="#F2E6F4" stroke="#CDCBFF" stroke-width="3"/>
+      <ellipse cx="956" cy="219" rx="18" ry="9" fill="#F7A6C9" opacity=".72"/>
+      <ellipse cx="1065" cy="219" rx="18" ry="9" fill="#F7A6C9" opacity=".72"/>
+      <!-- bangs -->
+      <path d="M932 186 Q924 129 971 131 Q994 119 1019 133 Q1071 122 1086 181 Q1075 179 1054 157 Q1050 176 1033 181 Q1026 163 1014 153 Q988 183 960 181 Q959 164 955 163 Q945 183 932 186Z" fill="url(#hair)"/>
+      <!-- eyes -->
+      <ellipse cx="977" cy="201" rx="18" ry="25" fill="#26315D"/>
+      <ellipse cx="1043" cy="201" rx="18" ry="25" fill="#26315D"/>
+      <ellipse cx="979" cy="195" rx="8" ry="12" fill="#83C8FA"/>
+      <ellipse cx="1045" cy="195" rx="8" ry="12" fill="#83C8FA"/>
+      <circle cx="974" cy="190" r="5" fill="#FFFFFF"/>
+      <circle cx="1040" cy="190" r="5" fill="#FFFFFF"/>
+      <path d="M1002 228 Q1012 238 1022 228" stroke="#80628E" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <!-- headset frame and ear cups -->
+      <path d="M940 203 Q935 121 1009 113 Q1086 121 1082 202" fill="none" stroke="#9DC8FF" stroke-width="9" stroke-linecap="round"/>
+      <rect x="922" y="192" width="22" height="49" rx="11" fill="#95C8FF" stroke="#4F70AC" stroke-width="4"/>
+      <rect x="1077" y="191" width="22" height="49" rx="11" fill="#95C8FF" stroke="#4F70AC" stroke-width="4"/>
+      <path d="M1090 232 Q1088 255 1064 258" fill="none" stroke="#92C6F8" stroke-width="4"/>
+      <circle cx="1060" cy="257" r="6" fill="#E6A5DA"/>
+    </g>
+    <!-- keyboard desk foreground -->
+    <rect x="853" y="326" width="369" height="86" rx="16" fill="#161C38" stroke="#AA9CEB" stroke-opacity=".65" stroke-width="2"/>
+    <rect x="869" y="341" width="334" height="51" rx="9" fill="#242A4D"/>
+    <g stroke="#768BBE" stroke-opacity=".6" stroke-width="2">
+      <path d="M885 354h17m8 0h17m8 0h17m8 0h17m8 0h17m8 0h17m8 0h17m8 0h17m8 0h17m8 0h17"/>
+      <path d="M891 367h17m8 0h17m8 0h17m8 0h17m8 0h17m8 0h17m8 0h17m8 0h17m8 0h17m8 0h17"/>
+      <path d="M943 379h171"/>
+    </g>
+    <path d="M938 318 Q947 305 962 318 L984 336 Q970 350 953 345 Q940 336 938 318Z" fill="#E6D3EA"/>
+    <path d="M1051 335 L1071 313 Q1092 301 1103 317 Q1114 338 1092 343Z" fill="#E6D3EA"/>
+    <rect x="837" y="406" width="393" height="14" rx="6" fill="#8196D0" opacity=".5"/>
+    <g font-family="Consolas,monospace" font-size="13" fill="#B4C4F1" opacity=".8">
+      <text x="805" y="33">✦ 00:01:24</text>
+    </g>
+    <rect x="2" y="2" width="1276" height="426" rx="27" fill="none" stroke="#A897F4" stroke-opacity=".39" stroke-width="3"/>
+  </g>
+</svg>
